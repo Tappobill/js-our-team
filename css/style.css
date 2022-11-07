@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-custom {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    width: calc( 100% / 2 );
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-custom-title{
+    width: 40%;
+    margin: auto;
+}
+
+.card{
+    margin: 10px;
+    text-align: center;
+}
